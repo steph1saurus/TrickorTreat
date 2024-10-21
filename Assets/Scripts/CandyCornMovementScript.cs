@@ -1,10 +1,9 @@
 
 using UnityEngine;
 
-public class ShootScript : MonoBehaviour
+public class CandyCornMovementScript : MonoBehaviour
 {
-    [Header("Projectiles")]
-    [SerializeField] public GameObject[] projectiles;
+    [SerializeField] public float speed = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +14,6 @@ public class ShootScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(Vector3.right * Time.deltaTime * speed);
     }
 }

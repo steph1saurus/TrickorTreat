@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 11764282004804365}
   - component: {fileID: 3213830889547765278}
   - component: {fileID: 8426393202389418977}
+  - component: {fileID: 1937342845603300317}
   m_Layer: 0
   m_Name: Candycorn
   m_TagString: Untagged
@@ -143,4 +144,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b4efa8daa1849ac972e68fc31659aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
+--- !u!114 &1937342845603300317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568151048583464786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d303785dbe9044e1a66167e1361ffc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightBound: 10
