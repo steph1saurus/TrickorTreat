@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 8229726090931717531}
   - component: {fileID: 7007495597339192425}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: BoxKid
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -251,7 +251,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3188496271430527747}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -285,8 +285,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 313778120, guid: 920320c2144214c508a1d61a0d0d1b86, type: 3}
-  m_Color: {r: 0.0754717, g: 0.07075636, b: 0.03025988, a: 1}
+  m_Sprite: {fileID: -336416478, guid: 920320c2144214c508a1d61a0d0d1b86, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -306,7 +306,7 @@ Animator:
   m_GameObject: {fileID: 3188496271430527747}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 998c4bc6b3b724d348b3796f0f31dba1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 290eebb8d1b3c4f11a7a4869456b62ea, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
