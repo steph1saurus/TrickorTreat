@@ -15,6 +15,6 @@ public class FloatingHealthBar : MonoBehaviour
         slider.value = currentValue;
     }
 
-  
+  //add health text update
 
 }
