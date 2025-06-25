@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 379154630229182355}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.637, y: 0.507, z: 0}
+  m_LocalPosition: {x: 0.637, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.14640439, g: 0.5090281, b: 0.8867924, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -513,8 +513,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialLifePoints: 20
-  currentLifePoints: 0
+  currentLifePoints: 20
   healthBar: {fileID: 1634243603714803919}
+  healthBarText: {fileID: 7053309209580961810}
 --- !u!114 &6208468356336266155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,7 +540,7 @@ Animator:
   m_GameObject: {fileID: 7679707951770314526}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 998c4bc6b3b724d348b3796f0f31dba1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 572e30410450047f5a1e83ba4933889c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

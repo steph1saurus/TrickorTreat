@@ -1,4 +1,6 @@
 
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ReduceLifeScript : MonoBehaviour
@@ -9,6 +11,7 @@ public class ReduceLifeScript : MonoBehaviour
 
     [Header("Health bar")]
     [SerializeField] FloatingHealthBar healthBar;
+    [SerializeField] public TextMeshProUGUI healthBarText;
 
     private void Awake()
     {
@@ -20,13 +23,19 @@ public class ReduceLifeScript : MonoBehaviour
     {
         currentLifePoints = initialLifePoints;
         healthBar.UpdateHealthBar(currentLifePoints);
+        // healthBarText.text = currentLifePoints + "/" + initialLifePoints ;
 
     }
 
+    private void Update()
+    {
+        healthBarText.text = currentLifePoints + "/" + initialLifePoints ;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         ReduceLife();
+        Debug.Log("hit");
     }
 
     public void ReduceLife()

@@ -11,36 +11,16 @@ public class MapManager : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject NPC;
 
-    [Header("Room specs")]
-    [SerializeField] private int width = 100;
-    [SerializeField] private int height = 80;
-    [SerializeField] private int roomMaxSize = 100;
-
-    [SerializeField] private TileBase floorTile;
-    [SerializeField] private TileBase wallTile;
-    [SerializeField] private Tilemap floorMap;
-
-    public TileBase FloorTile { get => floorTile; }
-    public TileBase WallTile { get => wallTile; }
-    public Tilemap FloorMap { get => floorMap; }
-
-    [Header("Features")]
-    [SerializeField] private List<RoomsScript> rooms = new List<RoomsScript>();
-    public List<RoomsScript> Rooms { get => rooms; }
-
     [Header("Monsters")]
     [SerializeField] private int maxMonsters = 4;
 
     // Start is called before the first frame update
     void Start()
     {
-        ProcGen procGen = new ProcGen();
-        procGen.GenerateLevel(width, height, roomMaxSize, rooms);
+       
 
         GameManagerScript.instance.StartPlayerTurn();
     }
-
-    public bool InBounds(int x, int y) => 0 <= x && x < width && 0 <= y && y < height;
 
     public void CreateEntity(string entity, Vector3 position)
     {
@@ -68,15 +48,5 @@ public class MapManager : MonoBehaviour
 
     }
 
-    private void PlaceEntities(int maxMonsters)
-    {
-        int numberOfMonsters = maxMonsters + 1;
-        for (int monster = 0; monster < maxMonsters;)
-        {
-          
-        }
 
-
-
-    }
 }
