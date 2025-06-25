@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 2504968230531559118}
   - component: {fileID: 8229726090931717531}
   - component: {fileID: 7007495597339192425}
+  - component: {fileID: 373284724180604134}
   m_Layer: 0
   m_Name: BoxKid
   m_TagString: Enemy
@@ -306,7 +307,7 @@ Animator:
   m_GameObject: {fileID: 3188496271430527747}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 290eebb8d1b3c4f11a7a4869456b62ea, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2d0abf0fc9f6e45019cbf9ec9af82760, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -375,8 +376,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialLifePoints: 5
-  currentLifePoints: 0
+  currentLifePoints: 5
   healthBar: {fileID: 6900267052825108200}
+  healthBarText: {fileID: 3583896132512613972}
 --- !u!114 &7007495597339192425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,6 +393,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isSentient: 1
   blocksMovement: 1
+--- !u!111 &373284724180604134
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3188496271430527747}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 9d2f13681f72b444ebf4ad495212cc01, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &3554710869549927454
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.34005627, g: 0.7924528, b: 0.31025273, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class CandyCornMovementScript : MonoBehaviour
+public class CandyMovementScript : MonoBehaviour
 {
     [SerializeField] public float speed = 5f;
 

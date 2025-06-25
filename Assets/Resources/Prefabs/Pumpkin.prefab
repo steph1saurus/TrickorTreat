@@ -306,7 +306,7 @@ Animator:
   m_GameObject: {fileID: 3188496271430527747}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 128a3d41f53464917919102a1ea8b4ab, type: 2}
+  m_Controller: {fileID: 9100000, guid: 446ca1c0a9d924d92b2cd223a250b409, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -377,6 +377,7 @@ MonoBehaviour:
   initialLifePoints: 5
   currentLifePoints: 0
   healthBar: {fileID: 6900267052825108200}
+  healthBarText: {fileID: 3583896132512613972}
 --- !u!114 &7007495597339192425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,7 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.34117648, g: 0.7921569, b: 0.30980393, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

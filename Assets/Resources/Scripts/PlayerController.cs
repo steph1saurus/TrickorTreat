@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
     {
         if (anim != null)
         {
-            anim.Play("Base Layer.Shoot", 0, 0.25f);
+            anim.Play("Base Layer.Shoot", 0, 0.75f);
         }
 
         buttonsClicked += 1;
